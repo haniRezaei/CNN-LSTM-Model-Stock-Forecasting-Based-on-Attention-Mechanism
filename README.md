@@ -15,4 +15,4 @@ This project proposes a deep learning solution capable of Capturing short-term p
 - **Dense Output Layer**: Predict a 7-day window of future closing prices
 
 Loss Function: `Mean Squared Error (MSE)`  
-Metrics: `Mean Absolute Error (MAE)` and `Root Mean Squared Error (RMSE)`
+Metrics: `Mean Absolute Error (MAE)` and `Root Mean Squared Error (RMSE)
