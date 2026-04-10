@@ -8,10 +8,10 @@ Financial time series are typically noisy, non-linear, and influenced by both sh
 
 The model follows a sequential processing pipeline:
 
-# CNN layers are used first to extract local patterns and reduce noise in the input data.
-# LSTM layers are then applied to capture long-term temporal dependencies in the time series.
-# An attention mechanism is added to assign importance to different time steps, allowing the model to focus on the most relevant past observations.
-# A dense output layer produces a 7-day forecast of future closing prices.
+* CNN layers are used first to extract local patterns and reduce noise in the input data.
+* LSTM layers are then applied to capture long-term temporal dependencies in the time series.
+* An attention mechanism is added to assign importance to different time steps, allowing the model to focus on the most relevant past observations.
+* A dense output layer produces a 7-day forecast of future closing prices.
 
 
 # Methodology
